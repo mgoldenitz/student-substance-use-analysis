@@ -2,7 +2,7 @@
 
 A five-page Power BI report, with Python and R analysis, that explores whether ten self-reported warning signs predict addiction among students. The main finding is about the data itself: statistical checks show the dataset behaves like randomly generated data, so the report documents that and treats the other pages as a technique demonstration.
 
-![Overview page](images/overview.png)
+![Overview page](overview.png)
 
 ## Key findings
 
@@ -24,8 +24,8 @@ A five-page Power BI report, with Python and R analysis, that explores whether t
 | **Data Quality** | Yes-rates by group, Cramér's V for each factor with a 0.10 threshold line, missing-data rates |
 | **Statistical Evidence** | Python visual comparing observed risk scores with a binomial model |
 
-![Data Quality page](images/data-quality.png)
-![Statistical Evidence page](images/statistical-evidence.png)
+![Data Quality page](data-quality.png)
+![Statistical Evidence page](statistical-evidence.png)
 
 ## Tools and methods
 
@@ -46,7 +46,7 @@ The Python and R scripts are organised by the modules of my Statistics and Data 
 | `Addiction_Stats_R.R` | R script |
 | `data_quality_stats.csv` | Per-factor statistics used on the Data Quality page |
 | `Clean_Report_Theme.json` | Power BI theme (colours, fonts, borders) |
-| `images/` | Page screenshots |
+| `overview.png`, `data-quality.png`, `statistical-evidence.png` | Page screenshots |
 
 ## How to run
 
@@ -58,7 +58,7 @@ The Python and R scripts are organised by the modules of my Statistics and Data 
 
 ## Data
 
-Student drug addiction dataset (test split, 12,744 rows) from Kaggle: [add dataset link here]. Ten yes/no warning-sign questions and an addiction class label. Rows with any missing answer (41%) were excluded from the main report pages; the data-quality statistics use all rows.
+Student drug addiction dataset (test split, 12,744 rows) from Kaggle: https://www.kaggle.com/datasets/atifmasih/students-drugs-addiction-dataset. Ten yes/no warning-sign questions and an addiction class label. Rows with any missing answer (41%) were excluded from the main report pages; the data-quality statistics use all rows.
 
 ## Author
 
