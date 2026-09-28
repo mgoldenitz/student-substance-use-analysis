@@ -30,6 +30,7 @@ A five-page Power BI report, with Python and R analysis, that explores whether t
 ## Tools and methods
 
 - **Power BI:** Power Query cleaning (label mapping, null handling, index column), data modelling, DAX measures, custom theme, Key Influencers and Decomposition Tree visuals, Python visual
+ - **SQL (SQLite):** aggregation, filtering, subqueries, joins, CTEs and window functions (see `sql/SQL_Practice.ipynb`)
 - **Python** (pandas, SciPy, matplotlib): descriptive statistics, correlation, binomial modelling, confidence intervals, t-test with effect size
 - **R** (base R): the same analysis, section by section
 - **Statistics:** frequency distributions, measures of centre and spread, correlation and simple linear regression, conditional probability, binomial and normal distributions, confidence intervals, two-group comparison (Welch's t-test, Cohen's d), Cramér's V
@@ -44,6 +45,7 @@ The Python and R scripts are organised by the modules of my Statistics and Data 
 | `Goldenitz_Student_Substance_Use_Analysis.pdf` | Static PDF of all five pages |
 | `Addiction_Stats_Python.ipynb` | Python notebook (runs in Google Colab or Jupyter) |
 | `Addiction_Stats_R.R` | R script |
+| `sql/SQL_Practice.ipynb` | SQL practice queries on the dataset (aggregation, joins, CTEs, window functions) |
 | `data_quality_stats.csv` | Per-factor statistics used on the Data Quality page |
 | `Clean_Report_Theme.json` | Power BI theme (colours, fonts, borders) |
 | `overview.png`, `data-quality.png`, `statistical-evidence.png` | Page screenshots |
