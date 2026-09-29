@@ -42,7 +42,7 @@ The Python and R scripts are organised by the modules of my Statistics and Data 
 | File | Description |
 |---|---|
 | `Goldenitz_Student_Substance_Use_Analysis.pbix` | Power BI report (open with Power BI Desktop) |
-| `Goldenitz_Student_Substance_Use_Analysis.pdf` | Static PDF of all five pages |
+| `Goldenitz_Student_Substance_Use_Analysis.pdf` | Static PDF of four report pages (the Decomposition Tree is interactive only, in the .pbix) |
 | `Addiction_Stats_Python.ipynb` | Python notebook (runs in Google Colab or Jupyter) |
 | `Addiction_Stats_R.R` | R script |
 | `sql/SQL_Practice.ipynb` | SQL practice queries on the dataset (aggregation, joins, CTEs, window functions) |
