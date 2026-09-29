@@ -20,7 +20,7 @@ A five-page Power BI report, with Python and R analysis, that explores whether t
 |---|---|
 | **Overview** | KPI cards, distribution of risk scores, risk-level breakdown, average score by addiction status |
 | **Key Influencers** | Power BI's AI visual ranking which factors are associated with reported addiction |
-| **Decomposition Tree** | Interactive breakdown of respondents by warning sign |
+| **Decomposition Tree** | Interactive breakdown of respondents by warning sign | Interactive, .pbix only |
 | **Data Quality** | Yes-rates by group, Cramér's V for each factor with a 0.10 threshold line, missing-data rates |
 | **Statistical Evidence** | Python visual comparing observed risk scores with a binomial model |
 
